@@ -1,0 +1,27 @@
+[project]
+name = "aws-incident-response-multi-agentic-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=0.3.10",
+    "langchain==0.3.13",
+    "langchain-aws>=0.2.10",
+    "langchain-community>=0.3.13",
+    "langchainhub>=0.1.21",
+    "litellm==1.55.12",
+    "zmq>=0.0.0",
+    "ipykernel>=6.29.5",
+    "jupyter-client>=8.6.3",
+    "tavily-python>=0.5.1",
+    "colorama>=0.4.6",
+    "atlassian-python-api>=3.41.21",
+    "wandb>=0.19.8",
+    "langsmith>=0.2.11",
+    "streamlit>=1.43.2",
+    "ipywidgets>=8.1.5",
+]
+
+[tool.uv.workspace]
+members = ["scratchpad_examples"]
