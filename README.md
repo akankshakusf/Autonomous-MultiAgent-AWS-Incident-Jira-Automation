@@ -62,33 +62,8 @@ Manual triage is now a thing of the past. We’ve cut response times, increased 
 - **AWS CloudWatch & CloudTrail**
 - **JIRA API**
 - **Tavily (Web Search API)**
+- **LangSmith**
 
----
 
-## 📈 System Workflow
-
-1. **Monitoring Agent** observes AWS CloudWatch & CloudTrail events, detecting issues in real time.
-2. **Diagnosis Agent** queries the vector memory for similar incidents and fixes. If none, fetches remediation from Tavily’s web search API. New solutions are appended to memory.
-3. **Resolution Agent** automatically generates JIRA tickets with full context and remediation details.
-4. **Supervisor Agent** manages all agent handoffs, state, and workflow orchestration.
-
----
-
-## 🏆 Impact
-
-- **Accelerated response times:** No more waiting for manual triage—actionable tickets are created in real time.
-- **Smarter, self-improving workflows:** The system learns from every incident, reducing repeat issues and alert fatigue.
-- **Proactive, transparent operations:** Collaboration and communication across technical teams have never been smoother.
-
----
-
-## 📬 Contact
-
-**Akanksha Kushwaha**  
-[GitHub](https://github.com/akankshakusf) | [LinkedIn](https://www.linkedin.com/in/akankshakusf)
-
-*Questions or feedback? Open an issue or reach out on LinkedIn!*
-
----
 
 
