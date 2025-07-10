@@ -2,7 +2,7 @@
 
 ### Architecture
 
-<img src="https://github.com/akankshakusf/Autonomous-MultiAgent-AWS-Incident-Jira-Automation/blob/main/images/architecture.png" width="80%" />
+<img src="https://github.com/akankshakusf/Autonomous-MultiAgent-AWS-Incident-Jira-Automation/blob/main/images/architecture.png" width="100%" />
 
 ## 🚀 Overview
 
