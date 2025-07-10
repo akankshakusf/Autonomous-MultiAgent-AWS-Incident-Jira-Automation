@@ -21,6 +21,9 @@ dependencies = [
     "langsmith>=0.2.11",
     "streamlit>=1.43.2",
     "ipywidgets>=8.1.5",
+    "chromadb>=1.0.15",
+    "sentence-transformers>=5.0.0",
+    "langchain-chroma>=0.0.0"
 ]
 
 [tool.uv.workspace]
